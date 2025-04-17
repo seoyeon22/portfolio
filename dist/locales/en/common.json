@@ -1,0 +1,178 @@
+{
+  "view_more": "view more",
+  "home": {
+    "type": "Hello, I am Seoyeon Hong, a developer who codes with value.",
+    "introduce1": {
+      "title": "A Developer Who Codes with Value",
+      "content": "I aim to be a developer who creates values like convenience, enjoyment, and efficiency, beyond simply implementing functionality."
+    },
+    "introduce2": {
+      "title": "Every Experience Leads to Growth",
+      "content": "With the belief that every experience leads to growth, I have challenged myself in various fields to build broad knowledge. This has greatly helped me in understanding and solving problems from a holistic perspective."
+    },
+    "introduce3": {
+      "title": "Communication Considering Diversity",
+      "content": "I believe that sharing knowledge and experiences and communicating with others is the way to grow together. I aim to be a developer who creates better results through collaboration with diverse people."
+    }
+  },
+  "experience": {
+    "1": {
+      "date": "2019.03",
+      "content": "Admitted to Deokseong Women's University\nMajor in IT Media Engineering"
+    },
+    "2": {
+      "date": "2021.08 ~ 2022.06",
+      "content": "Exchanged student at Angelo State University, Texas"
+    },
+    "3": {
+      "date": "2022.09 ~ 2022.12",
+      "content": "Intern at Catholic Peace Broadcasting"
+    },
+    "4": {
+      "date": "2024.04 ~ 2024.08",
+      "content": "Developer at University MakeUs\nSpringBoot team in development club"
+    },
+    "5": {
+      "date": "2024.08",
+      "content": "Graduated from Deokseong Women's University\nMajor in IT Media Engineering (with Honors)"
+    }
+  },
+  "awards&certificates": {
+    "1": {
+      "date": "2021.06",
+      "content": "Deokseong Women's University IT Media Engineering Department Project Competition\nWon the Excellence Award"
+    },
+    "2": {
+      "date": "2022.08",
+      "content": "Deokseong Women's University IT Union Hackathon\nWon the Student Vote Award"
+    },
+    "3": {
+      "date": "2023.07",
+      "content": "NCISS Summer Academic Conference Proceedings 51p ~ 53p\nFirst Author on Speaker Location-based Subtitle Generation"
+    },
+    "4": {
+      "date": "2023.11",
+      "content": "Information Processing Engineer\nCertification obtained"
+    },
+    "5": {
+      "date": "2024.02",
+      "content": "TOEIC\nScore: 900"
+    }
+  },
+  "skills": {
+    "Frontend": {
+      "category": "Frontend",
+      "items": [
+        {
+          "skill": "React",
+          "logo": "/icons/react.png",
+          "contents": [
+            "Designed and implemented component-based UI",
+            "Utilized Hooks (useState, useEffect, useContext, useRef)",
+            "Implemented SPA routing using React Router",
+            "Styled using tools such as Styled-components and TailwindCSS",
+            "Managed state with Zustand",
+            "Project experience with Next.js"
+          ]
+        },
+        {
+          "skill": "JavaScript & TypeScript",
+          "logo": "/icons/js_ts_icon.png",
+          "contents": [
+            "Used modern ES6+ syntax (destructuring, arrow functions, etc.)",
+            "Handled asynchronous operations (async/await, fetch, axios)",
+            "Ensured type safety with TypeScript"
+          ]
+        },
+        {
+          "skill": "HTML & CSS & JavaScript",
+          "logo": "/icons/html_css_icon.png",
+          "contents": [
+            "Wrote semantic and accessible HTML markup",
+            "Built responsive layouts with Flexbox and Grid",
+            "Understood basic SEO structure and web accessibility"
+          ]
+        }
+      ]
+    },
+    "Backend": {
+      "category": "Backend",
+      "items": [
+        {
+          "skill": "Spring Boot",
+          "logo": "/icons/springboot.png",
+          "contents": [
+            "Designed and developed RESTful APIs",
+            "Implemented data CRUD logic with JPA",
+            "Applied layered architecture and wrote test code"
+          ]
+        },
+        {
+          "skill": "Java",
+          "logo": "/icons/java.png",
+          "contents": [
+            "Applied object-oriented programming and design patterns",
+            "Handled exception handling and wrote unit tests",
+            "Experience in Android app development using Java"
+          ]
+        },
+        {
+          "skill": "Python",
+          "logo": "/icons/python.png",
+          "contents": [
+            "Built simple web servers with Flask",
+            "Performed image processing and object detection using OpenCV"
+          ]
+        }
+      ]
+    },
+    "Database": {
+      "category": "Database",
+      "items": [
+        {
+          "skill": "MySQL",
+          "logo": "/icons/mysql.png",
+          "contents": [
+            "Wrote basic SQL queries and JOIN statements",
+            "Designed and normalized database tables"
+          ]
+        }
+      ]
+    },
+    "Collaboration": {
+      "category": "Collaboration",
+      "items": [
+        {
+          "skill": "Git / GitHub",
+          "logo": "/icons/github.png",
+          "contents": [
+            "Used branching strategies (feature, release, hotfix)",
+            "Collaborated via Pull Requests and code reviews",
+            "Built CI/CD pipelines using GitHub Actions"
+          ]
+        },
+        {
+          "skill": "Figma",
+          "logo": "/icons/figma.png",
+          "contents": [
+            "Collaborated on UI/UX design",
+            "Created prototypes and user flow designs"
+          ]
+        }
+      ]
+    },
+    "Etc": {
+      "category": "Etc",
+      "items": [
+        {
+          "skill": "Linux",
+          "logo": "/icons/linux.png",
+          "contents": [
+            "Worked with Ubuntu on VirtualBox and AWS EC2 environments",
+            "Executed basic shell commands and configured server environments"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "projects": [
+    {
+      "logo": "/logos/flashmind.png",
+      "title": "FlashMind",
+      "period": "Mar 2024 - Apr 2024 (Ongoing)",
+      "team": "Solo Project",
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "Zustand",
+        "Tailwind CSS",
+        "Supabase"
+      ],
+      "summary": "A flashcard-based web application for repetitive learning",
+      "features": [
+        "Login/Sign-up functionality",
+        "Create and edit flashcards",
+        "Learning mode to aid memorization through repetition",
+        "Responsive UI for various screen sizes"
+      ],
+      "contribution": [
+        "Designed and implemented overall UI/UX",
+        "Integrated database and authentication using Supabase",
+        "Managed global state and learning flow with Zustand"
+      ],
+      "problemSolving": [
+        "Applied Supabase RLS to securely fetch user-specific data",
+        "Resolved Zustand initialization mismatch in SSR to prevent hydration errors"
+      ],
+      "learning": [
+        "Understanding SSR/CSR behavior in Next.js",
+        "Simple yet effective state management using Zustand",
+        "Role-based security and access control in Supabase"
+      ],
+      "github": "https://github.com/your-username/flashmind",
+      "demo": "https://flashmind.vercel.app",
+      "Images": []
+    },
+    {
+      "logo": "/logos/overtheglass.png",
+      "title": "Over The Glass",
+      "period": "Mar 2023 - Nov 2023",
+      "team": "Team of 3",
+      "stack": [
+        "Unity",
+        "C#",
+        "WebSocket",
+        "Flask",
+        "AWS"
+      ],
+      "summary": "A real-time subtitle service for the hearing-impaired using AR glasses",
+      "features": [
+        "Conversation Mode: Display subtitles around the speaker in a chatroom",
+        "Conversation History: Record who said what during a conversation",
+        "Video Watching Mode: Identify speaker in videos and show subtitles accordingly"
+      ],
+      "contribution": [
+        "Led the team and implemented frontend of the AR application",
+        "Analyzed open-source specifications and example codes for unfamiliar technologies such as AR glasses, Flask, Dlib, and STT",
+        "Implemented speaker-position-based real-time subtitles using understanding of networking, image processing, and 3D coordinates",
+        "Implemented chatroom using WebSocket"
+      ],
+      "problemSolving": [
+        "Used mutex to prevent stack overflow during image processing"
+      ],
+      "learning": [
+        "Real-time communication architecture using WebSocket",
+        "Unity AR Foundation and UI rendering"
+      ],
+      "github": "https://github.com/Over-The-Glass",
+      "Images": [
+        "/images/overtheglass1.png",
+        "/images/overtheglass2.png"
+      ]
+    },
+    {
+      "logo": "/logos/duktown.png",
+      "title": "Duktown",
+      "period": "Jun 2023 - Aug 2023",
+      "team": "Team of 4 (2 Frontend, 2 Backend)",
+      "stack": [
+        "React"
+      ],
+      "summary": "Community-based information sharing app for dormitory life",
+      "features": [
+        "Provides dormitory-related information and applications (e.g., overnight stay, repair requests)",
+        "Community and delivery group matching with chat functionality"
+      ],
+      "contribution": [
+        "Developed login/sign-up pages",
+        "Implemented community page with post CRUD and UI",
+        "Built user profile page to view and edit information"
+      ],
+      "problemSolving": [
+        "Improved user experience by modifying API requests based on query parameters and syncing state with URL",
+        "Implemented infinite scroll using `ref` and `onScroll` to enhance pagination",
+        "Defined enum-like object for category-based filtering (e.g., Delivery, Daily Life, Marketplace) and mapped them to API requests"
+      ],
+      "learning": [
+        "Designed structured dynamic routing using React Router and hooks like useState/useEffect",
+        "Learned access control via RESTful API and token-based auth using localStorage",
+        "Gained experience in user-centric UI through conditional rendering, scroll events, and useRef"
+      ],
+      "github": "https://github.com/yoonhaorg/Duktown_Frontend",
+      "Images": [
+        "/images/duktown1.png",
+        "/images/duktown2.png"
+      ]
+    },
+    {
+      "logo": "/logos/timezip.png",
+      "title": "Time.zip",
+      "period": "May 2023 - Jun 2023",
+      "team": "Team of 4 (3 Frontend, 1 Backend)",
+      "stack": [
+        "React"
+      ],
+      "summary": "A self-development web app for commuting students and free time",
+      "features": [
+        "Curates self-development content like newsletters and video lectures",
+        "Community section for student information sharing"
+      ],
+      "contribution": [
+        "Managed state using Redux",
+        "Implemented features to add and edit schedules",
+        "Designed UI and UX"
+      ],
+      "problemSolving": [
+        "Resolved bugs in time management logic",
+        "Solved issues with real-time updates in notification feature"
+      ],
+      "learning": [
+        "Resolved git merge conflicts",
+        "Integrated with REST APIs",
+        "Handled async processing using axios"
+      ],
+      "github": "https://github.com/Draw-Four-Synergy",
+      "Images": [
+        "/images/timezip1.png",
+        "/images/timezip2.png"
+      ]
+    },
+    {
+      "logo": "/logos/focusup.png",
+      "title": "Focus Up",
+      "period": "Jul 2024 - Aug 2024",
+      "team": "Team of 10 (Frontend: multiple, Backend: 2)",
+      "stack": [
+        "Spring Boot",
+        "MySQL",
+        "AWS"
+      ],
+      "summary": "Gamified routine management app to enhance focus and sense of achievement",
+      "features": [
+        "Create and manage user routines",
+        "Routine missions like a game",
+        "Reward system upon routine completion"
+      ],
+      "contribution": [
+        "Developed REST APIs for home screen, character screen, my room, and shop using Spring Boot"
+      ],
+      "problemSolving": [
+        "Resolved synchronization issues with routine data"
+      ],
+      "learning": [
+        "Backend development with Spring Boot and MySQL + JPA"
+      ],
+      "github": "https://github.com/UMC-Focus-Up",
+      "Images": [
+        "/images/focusup1.png",
+        "/images/focusup2.png"
+      ]
+    }
+  ]
+}
