@@ -35,7 +35,7 @@
       ],
       "github": "https://github.com/your-username/flashmind",
       "demo": "https://flashmind.vercel.app",
-      "images": [
+      "Images": [
         "/images/flashmind1.png"
       ]
     },
@@ -75,7 +75,7 @@
         "/images/overtheglass1.png",
         "/images/overtheglass2.png",
         "/images/overtheglass3.png",
-        "/images/overtheglass4,png"
+        "/images/overtheglass4.png"
       ]
     },
     {
