@@ -35,7 +35,8 @@
       ],
       "github": "https://github.com/your-username/flashmind",
       "demo": "https://flashmind.vercel.app",
-      "Images": [
+      "images": [
+        "/images/flashmind1.png"
       ]
     },
     {
@@ -72,7 +73,9 @@
       "github": "https://github.com/Over-The-Glass",
       "Images": [
         "/images/overtheglass1.png",
-        "/images/overtheglass2.png"
+        "/images/overtheglass2.png",
+        "/images/overtheglass3.png",
+        "/images/overtheglass4,png"
       ]
     },
     {
@@ -138,8 +141,7 @@
       ],
       "github": "https://github.com/Draw-Four-Synergy",
       "Images": [
-        "/images/timezip1.png",
-        "/images/timezip2.png"
+        "/images/timezip1.png"
       ]
     },
     {
@@ -169,9 +171,9 @@
       ],
       "github": "https://github.com/UMC-Focus-Up",
       "Images": [
-        "/images/focusup1.png",
-        "/images/focusup2.png"
-      ]
+        "/images/focusup1.png"
+      ],
+      "video" : "/video/focusup.mp4"
     }
   ]
 }

@@ -1,5 +1,4 @@
 {
-  "view_more": "더 알아보기",
   "home": {
     "type": "안녕하세요, 가치를 코딩하는 개발자 홍서연입니다",
     "introduce1": {
@@ -65,7 +64,7 @@
       "items": [
         {
           "skill": "React",
-          "logo": "/icons/react_icon.png",
+          "logo": "/icons/react.png",
           "contents": [
             "컴포넌트 기반 UI 설계 및 구현",
             "Hooks (useState, useEffect, useContext, useRef) 활용",
@@ -77,7 +76,7 @@
         },
         {
           "skill": "JavaScript & TypeScript",
-          "logo": "/icons/js_ts_icon.png",
+          "logo": "/icons/js_ts.png",
           "contents": [
             "ES6+ 문법 활용 (구조 분해, 화살표 함수 등)",
             "비동기 처리 (async/await, fetch, axios)",
@@ -86,7 +85,7 @@
         },
         {
           "skill": "HTML & CSS & JavaScript",
-          "logo": "/icons/html_css_icon.png",
+          "logo": "/icons/html_css.png",
           "contents": [
             "시멘틱 마크업 작성",
             "Flexbox, Grid를 활용한 반응형 레이아웃 구현",
@@ -100,7 +99,7 @@
       "items": [
         {
           "skill": "Spring Boot",
-          "logo": "/icons/spring_icon.png",
+          "logo": "/icons/springboot.png",
           "contents": [
             "RESTful API 설계 및 구현",
             "JPA 기반 데이터 CRUD 처리",
@@ -109,7 +108,7 @@
         },
         {
           "skill": "Java",
-          "logo": "/icons/java_icon.png",
+          "logo": "/icons/java.png",
           "contents": [
             "객체 지향 프로그래밍 및 디자인 패턴 적용",
             "예외 처리 및 단위 테스트 작성",
@@ -118,7 +117,7 @@
         },
         {
           "skill": "Python",
-          "logo": "/icons/python_icon.png",
+          "logo": "/icons/python.png",
           "contents": [
             "Flask를 이용한 간단한 웹 서버 구현",
             "OpenCV를 이용한 이미지 프로세싱 및 객체 탐지"
@@ -131,7 +130,7 @@
       "items": [
         {
           "skill": "MySQL",
-          "logo": "/icons/mysql_icon.png",
+          "logo": "/icons/mysql.png",
           "contents": [
             "기본적인 SQL 문법 및 JOIN 구문 활용",
             "테이블 설계 및 정규화 경험"
@@ -144,7 +143,7 @@
       "items": [
         {
           "skill": "Git / GitHub",
-          "logo": "/icons/github_icon.png",
+          "logo": "/icons/github.png",
           "contents": [
             "브랜치 전략 (feature, release, hotfix) 사용",
             "Pull Request 및 코드 리뷰 경험",
@@ -153,7 +152,7 @@
         },
         {
           "skill": "Figma",
-          "logo": "/icons/figma_icon.png",
+          "logo": "/icons/figma.png",
           "contents": [
             "UI/UX 디자인 협업",
             "프로토타입 제작 및 사용자 흐름 설계"
@@ -166,7 +165,7 @@
       "items": [
         {
           "skill": "Linux",
-          "logo": "/icons/linux_icon.png",
+          "logo": "/icons/linux.png",
           "contents": [
             "VirtualBox와 AWS EC2 환경에서 Ubuntu 사용 경험",
             "기본적인 셸 명령어 및 서버 설정"
@@ -174,5 +173,7 @@
         }
       ]
     }
-  }
+  },
+  "more_about_me": "소개 더보기",
+  "view_projects": "프로젝트 보기"
 }

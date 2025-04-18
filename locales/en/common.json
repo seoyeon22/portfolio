@@ -1,5 +1,4 @@
 {
-  "view_more": "view more",
   "home": {
     "type": "Hello, I am Seoyeon Hong, a developer who codes with value.",
     "introduce1": {
@@ -77,7 +76,7 @@
         },
         {
           "skill": "JavaScript & TypeScript",
-          "logo": "/icons/js_ts_icon.png",
+          "logo": "/icons/js_ts.png",
           "contents": [
             "Used modern ES6+ syntax (destructuring, arrow functions, etc.)",
             "Handled asynchronous operations (async/await, fetch, axios)",
@@ -86,7 +85,7 @@
         },
         {
           "skill": "HTML & CSS & JavaScript",
-          "logo": "/icons/html_css_icon.png",
+          "logo": "/icons/html_css.png",
           "contents": [
             "Wrote semantic and accessible HTML markup",
             "Built responsive layouts with Flexbox and Grid",
@@ -174,5 +173,7 @@
         }
       ]
     }
-  }
+  },
+  "more_about_me": "More About Me",
+  "view_projects": "View Projects"
 }
