@@ -3,15 +3,15 @@
     "type": "Hello, I am Seoyeon Hong, a developer who codes with value.",
     "introduce1": {
       "title": "A Developer Who Codes with Value",
-      "content": "I aim to be a developer who creates values like convenience, enjoyment, and efficiency, beyond simply implementing functionality."
+      "content": "Rather than simply implementing features, I strive to become a developer who delivers value—such as convenience, enjoyment, and efficiency—to users through code."
     },
     "introduce2": {
-      "title": "Every Experience Leads to Growth",
-      "content": "With the belief that every experience leads to growth, I have challenged myself in various fields to build broad knowledge. This has greatly helped me in understanding and solving problems from a holistic perspective."
+      "title": "Every Experience Fuels Growth",
+      "content": "I believe that every experience leaves room for growth, and I enjoy taking on diverse challenges. I aim to become a developer with both deep expertise and broad experience."
     },
     "introduce3": {
-      "title": "Communication Considering Diversity",
-      "content": "I believe that sharing knowledge and experiences and communicating with others is the way to grow together. I aim to be a developer who creates better results through collaboration with diverse people."
+      "title": "Growing Together Through Communication",
+      "content": "I believe we grow more when we help and communicate with each other. Just like open source projects evolve through shared problems and solutions, I strive to become a developer who collaborates and grows through continuous communication."
     }
   },
   "experience": {
@@ -84,7 +84,7 @@
           ]
         },
         {
-          "skill": "HTML & CSS & JavaScript",
+          "skill": "HTML & CSS",
           "logo": "/icons/html_css.png",
           "contents": [
             "Wrote semantic and accessible HTML markup",
