@@ -47,6 +47,7 @@
       "stack": [
         "Unity",
         "C#",
+        "Python",
         "WebSocket",
         "Flask",
         "AWS"
@@ -67,6 +68,7 @@
         "뮤텍스를 활용하여 이미지 프로세싱 과정에서의 오버스택 플로우 방지"
       ],
       "learning": [
+        "데이터 흐름을 고려한 프로젝트 설계",
         "WebSocket을 활용한 실시간 통신 아키텍처",
         "Unity의 AR Foundation 및 UI 렌더링"
       ],
@@ -115,7 +117,7 @@
     {
       "logo": "/logos/timezip.png",
       "title": "Time.zip",
-      "period": "2023년 5월 - 2023년 6월",
+      "period": "2022년 8월",
       "team": "4인 팀 (프론트엔드 3명, 백엔드 1명)",
       "stack": [
         "React"
@@ -133,8 +135,8 @@
         "git 병합 충돌 해결"
       ],
       "learning": [
-        "Rest Api 연동",
-        "axios를 사용한 비동기 처리"
+        "짧은 해커톤 기간 내 기획-디자인-개발 과정을 경험하며 협업 능력 향상",
+        "Rest API 연동을 위한 axios 기반 비동기 처리"
       ],
       "github": "https://github.com/Draw-Four-Synergy",
       "Images": [
