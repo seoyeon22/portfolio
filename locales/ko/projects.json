@@ -126,16 +126,13 @@
         "커뮤니티 공간에서 학생들간 정보 교류"
       ],
       "contribution": [
-        "Redux를 이용한 상태 관리",
-        "일정 추가 및 수정 기능 구현",
+        "로그인/회원가입 페이지 및 뉴스레터 페이지 구현",
         "UI 및 UX 디자인"
       ],
       "problemSolving": [
-        "시간 관리 로직에서 발생하는 오류를 해결",
-        "알림 기능을 실시간으로 업데이트하는 문제 해결"
+        "git 병합 충돌 해결"
       ],
       "learning": [
-        "git 병합 충돌 해결",
         "Rest Api 연동",
         "axios를 사용한 비동기 처리"
       ],
@@ -164,9 +161,9 @@
         "Spring Boot를 활용해 홈 화면, 캐릭터 화면, 마이룸, 상점 관련 Rest API 개발"
       ],
       "problemSolving": [
-        "루틴 데이터의 동기화 문제 해결"
       ],
       "learning": [
+        "Controller–Service–Repository 구조로 레이어를 분리해 MVC 기반의 유지보수에 용이한 아키텍처를 구현",
         "Spring Boot와 MySQL + JPA 을 이용한 백엔드 개발"
       ],
       "github": "https://github.com/UMC-Focus-Up",

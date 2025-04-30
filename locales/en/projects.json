@@ -126,16 +126,13 @@
         "Community section for student information sharing"
       ],
       "contribution": [
-        "Managed state using Redux",
-        "Implemented features to add and edit schedules",
+        "Implemented login/signup pages and newsletter page",
         "Designed UI and UX"
       ],
       "problemSolving": [
-        "Resolved bugs in time management logic",
-        "Solved issues with real-time updates in notification feature"
+        "Resolved git merge conflicts"
       ],
       "learning": [
-        "Resolved git merge conflicts",
         "Integrated with REST APIs",
         "Handled async processing using axios"
       ],
@@ -164,9 +161,9 @@
         "Developed REST APIs for home screen, character screen, my room, and shop using Spring Boot"
       ],
       "problemSolving": [
-        "Resolved synchronization issues with routine data"
       ],
       "learning": [
+        "Implemented a maintainable architecture based on MVC by separating layers into Controller, Service, and Repository",
         "Backend development with Spring Boot and MySQL + JPA"
       ],
       "github": "https://github.com/UMC-Focus-Up",
