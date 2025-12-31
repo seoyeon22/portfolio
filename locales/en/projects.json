@@ -1,0 +1,178 @@
+{
+  "projects": [
+    {
+      "logo": "/logos/flashmind.png",
+      "title": "FlashMind",
+      "period": "March 2024 - April 2024 (Ongoing)",
+      "team": "Solo Project",
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "Zustand",
+        "Tailwind CSS",
+        "Supabase"
+      ],
+      "summary": "A flashcard-based web application for repetitive learning",
+      "features": [
+        "Login and sign-up functionality",
+        "Flashcard creation and editing features",
+        "Learning mode that supports memorization through repetition",
+        "Dark mode and responsive UI"
+      ],
+      "contribution": [
+        "Designed and implemented the overall UI/UX",
+        "Integrated database and user authentication using Supabase",
+        "Controlled global state and learning flow using Zustand"
+      ],
+      "problemSolving": [
+        "Implemented secure data retrieval per user using Supabase RLS",
+        "Resolved Zustand hydration mismatch issues during SSR"
+      ],
+      "learning": [
+        "Understanding of SSR/CSR behavior in Next.js",
+        "Simple and effective state management with Zustand",
+        "Role-based security and access control with Supabase"
+      ],
+      "github": "https://github.com/seoyeon22/flashmind",
+      "demo": "https://flashmind-iota.vercel.app/",
+      "Images": [
+        "/images/flashmind1.png"
+      ]
+    },
+    {
+      "logo": "/logos/overtheglass.png",
+      "title": "Over The Glass",
+      "period": "March 2023 - November 2023",
+      "team": "Team of 3",
+      "stack": [
+        "Unity",
+        "C#",
+        "Python",
+        "WebSocket",
+        "Flask",
+        "AWS"
+      ],
+      "summary": "A real-time subtitle service using AR glasses for the hearing impaired",
+      "features": [
+        "Conversation Mode: Displays subtitles around the speaker with chat room support",
+        "Conversation History: Records who said what during conversations",
+        "Video Watching Mode: Identifies the speaker in videos and displays subtitles nearby"
+      ],
+      "contribution": [
+        "Led planning and frontend development as team leader and implemented the AR application",
+        "Analyzed open-source documentation and example code for unfamiliar technologies such as AR glasses, Flask, Dlib, and STT",
+        "Implemented real-time subtitles based on speaker position using knowledge of networking, image processing, 3D coordinates, and shared resources",
+        "Implemented conversation rooms using WebSocket"
+      ],
+      "problemSolving": [
+        "Prevented stack overflow in image processing by applying mutex locks",
+        "Improved speaker tracking accuracy in 3D space through adaptive threshold tuning and frame sampling techniques"
+      ],
+      "learning": [
+        "Project design considering data flow",
+        "Real-time communication architecture using WebSocket",
+        "Unity’s AR Foundation and UI rendering"
+      ],
+      "github": "https://github.com/Over-The-Glass",
+      "Images": [
+        "/images/overtheglass1.png",
+        "/images/overtheglass2.png",
+        "/images/overtheglass3.png",
+        "/images/overtheglass4.png"
+      ]
+    },
+    {
+      "logo": "/logos/duktown.png",
+      "title": "Duktown",
+      "period": "June 2023 - August 2023",
+      "team": "Team of 4 (2 Frontend, 2 Backend)",
+      "stack": [
+        "React"
+      ],
+      "summary": "A community-based app for sharing dormitory-related information",
+      "features": [
+        "Provides dormitory-related info and supports applications (e.g. overnight stays, maintenance requests)",
+        "Dorm resident community, group delivery matching, and chat features"
+      ],
+      "contribution": [
+        "Developed login/sign-up pages",
+        "Implemented community pages including post CRUD and UI",
+        "Developed My Page with user info display and edit functionality"
+      ],
+      "problemSolving": [
+        "Improved user experience by dynamically configuring API requests based on query parameters and syncing state with URL for category-specific post loading",
+        "Implemented infinite scroll with `ref` and `onScroll` logic to handle pagination smoothly",
+        "Used an enum-like object to clearly differentiate categories such as 'Delivery', 'Daily', and 'Marketplace' and mapped them correctly to server API requests"
+      ],
+      "learning": [
+        "Learned structured dynamic page rendering and routing using React Router and state management hooks (useState, useEffect)",
+        "Managed accessToken in `localStorage` and learned to handle redirection for unauthenticated access in token-based authentication flow",
+        "Gained experience in user-centered UI logic through conditional rendering, scroll event handling, and use of useRef"
+      ],
+      "github": "https://github.com/yoonhaorg/Duktown_Frontend",
+      "Images": [
+        "/images/duktown1.png",
+        "/images/duktown2.png"
+      ]
+    },
+    {
+      "logo": "/logos/timezip.png",
+      "title": "Time.zip",
+      "period": "August 2022",
+      "team": "Team of 4 (3 Frontend, 1 Backend)",
+      "stack": [
+        "React"
+      ],
+      "summary": "A self-development web app for students' commute and free time",
+      "features": [
+        "Provides curated content such as newsletters and online lectures for self-improvement",
+        "Community space for student interaction"
+      ],
+      "contribution": [
+        "Implemented login/sign-up and newsletter pages",
+        "Designed UI and UX"
+      ],
+      "problemSolving": [
+        "Resolved git merge conflicts"
+      ],
+      "learning": [
+        "Improved collaboration by experiencing planning-design-development during a short hackathon",
+        "Learned asynchronous processing with axios for Rest API integration"
+      ],
+      "github": "https://github.com/Draw-Four-Synergy",
+      "Images": [
+        "/images/timezip1.png"
+      ]
+    },
+    {
+      "logo": "/logos/focusup.png",
+      "title": "Focus Up",
+      "period": "July 2024 - August 2024",
+      "team": "Team of 10 (Frontend and 2 Backend developers)",
+      "stack": [
+        "Spring Boot",
+        "MySQL",
+        "AWS"
+      ],
+      "summary": "A gamified routine management app to boost focus and achievement",
+      "features": [
+        "Users can create and manage routines",
+        "Routine missions progress like a game",
+        "Reward system upon routine goal completion"
+      ],
+      "contribution": [
+        "Developed Rest APIs for the home screen, character view, my room, and shop features using Spring Boot"
+      ],
+      "problemSolving": [],
+      "learning": [
+        "Implemented maintainable MVC architecture by separating Controller–Service–Repository layers",
+        "Learned backend development using Spring Boot, MySQL, and JPA"
+      ],
+      "github": "https://github.com/UMC-Focus-Up",
+      "Images": [
+        "/images/focusup1.png"
+      ],
+      "video": "/video/focusup.mp4"
+    }
+  ]
+}
