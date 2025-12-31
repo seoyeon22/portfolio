@@ -1,17 +1,93 @@
 {
   "projects": [
     {
+      "logo": "/logos/pickcook.png",
+      "title": "PickCook",
+      "period": "2025년 6월 - 2025년 9월",
+      "team": "5인 팀",
+      "stack": ["Vue", "Spring Boot", "MariaDB", "AWS", "Docker", "K8S"],
+      "summary": "스마트 요리 이커머스 플랫폼",
+      "features": [
+        "냉장고(식재료) 관리: 보유 식재료 등록/관리, 유통기한 임박 알림, 보유 재료 기반 요리 추천",
+        "레시피 검색 및 추천: 음식명 검색, “보유 재료 기반” 추천으로 메뉴 선택 부담 감소",
+        "이커머스 연동: 레시피에 필요한 재료 중 부족한 품목을 장바구니에 담고 구매까지 연결",
+        "커뮤니티: 유저 간 요리 팁/레시피 공유, 후기/소통 기능 제공"
+      ],
+      "contribution": [
+        "공공데이터 기반 레시피 데이터를 서비스 도메인에 맞게 정제·매핑하여 DB 적재 파이프라인 구축, 초기 콘텐츠 데이터 확보",
+        "AWS S3 Presigned URL 업로드로 서버를 거치지 않는 파일 업로드를 구현해 서버 부하 감소 및 접근 제어 강화"
+      ],
+      "problemSolving": [
+        "DB/쿼리 최적화(반정규화, QueryDSL, JPA Batch Size)로 조회 성능 2배 개선 및 부하 테스트 기반 안정화"
+      ],
+      "learning": [
+        "Prometheus·Grafana로 지표 기반 모니터링(응답시간/에러율/리소스 사용률) 환경을 구성하고, 병목 지점을 데이터로 확인하는 방법을 익힘",
+        "JMeter/Locust로 부하 테스트 시나리오를 설계·재현하며, 개선 전/후를 수치로 비교하는 성능 개선 프로세스를 경험"
+      ],
+      "github": [
+        {
+          "label": "Frontend Repository",
+          "url": "https://github.com/seoyeon22/CookBuddy-PickCook-FE"
+        },
+        {
+          "label": "Backend Repository",
+          "url": "https://github.com/seoyeon22/CookBuddy-PickCook-BE"
+        }
+      ],
+      "demo": "https://pick-cook.kro.kr:8443",
+      "Images": [
+        "/images/pickcook1.png",
+        "/images/pickcook2.png",
+        "images/pickcook3.png"
+      ]
+    },
+    {
+      "logo": "/logos/unibooker.png",
+      "title": "UniBooker",
+      "period": "2025년 9월 - 2025년 11월",
+      "team": "5인 팀",
+      "stack": ["Vue", "Spring Boot", "MariaDB", "AWS", "Docker", "K8S"],
+      "summary": "B2B 예약 관리 플랫폼",
+      "features": [
+        "B2B 예약/신청 관리 플랫폼: 관리자·사용자 예약 생성/취소/현황 관리",
+        "리소스 관리: 시설·공간·장비를 그룹/카테고리로 구조화하고 운영시간·가격·조건 설정",
+        "예약 처리 안정화: 예약 겹침·동시성 제어, 시간/기간 단위 예약 지원",
+        "Redis 대기열: 트래픽 폭주 시 진입 제어로 예약 API/DB 보호 및 피크 흡수",
+        "실시간 모니터링/알림: 대시보드에서 예약 현황·트래픽·SLA 시각화 + WebSocket 알림",
+        "통계/리포트: 예약·취소 누적, 리소스 그룹별 예약 수, 시간대별 이용량 분석"
+      ],
+      "contribution": [
+        "Vue 3 + Axios로 예약/리소스/대기열 API 연동 및 사용자·관리자 화면 흐름(목록/상세/생성/취소) 구현",
+        "Redis 기반 대기열 시스템 설계·구현으로 트래픽 피크 시 예약 요청 진입 제어 및 서버/DB 보호"
+      ],
+      "problemSolving": [],
+      "learning": [
+        "대규모 트래픽 상황에서도 서비스가 버틸 수 있도록 MSA 관점에서 책임을 분리하고, 병목이 생기는 구간을 독립적으로 확장할 수 있는 구조의 필요성을 학습",
+        "Redis 대기열로 순간 트래픽을 완충해 예약 API/DB를 보호하고, 트래픽을 “제어·흡수(backpressure)”하는 방식의 효과를 체득",
+        "Kafka 기반 비동기 처리를 통해 요청 처리 흐름을 분리하고, 이벤트 기반으로 시스템을 확장/연결하는 패턴(느슨한 결합)을 이해"
+      ],
+      "github": [
+        {
+          "label": "Frontend Repository",
+          "url": "https://github.com/seoyeon22/LinkVerse-UniBooker-FE"
+        },
+        {
+          "label": "Backend Repository",
+          "url": "https://github.com/seoyeon22/LinkVerse-UniBooker-BE"
+        }
+      ],
+      "Images": [
+        "/images/unibooker1.png",
+        "/images/unibooker2.png",
+        "/images/unibooker3.png"
+      ]
+    },
+    {
       "logo": "/logos/flashmind.png",
       "title": "FlashMind",
       "period": "2024년 3월 - 2024년 4월(진행중)",
       "team": "개인 프로젝트",
-      "stack": [
-        "Next.js",
-        "TypeScript",
-        "Zustand",
-        "Tailwind CSS",
-        "Supabase"
-      ],
+      "stack": ["Next.js", "TypeScript", "Zustand", "Tailwind CSS", "Supabase"],
       "summary": "반복 학습을 위한 플래시카드 기반 웹 애플리케이션",
       "features": [
         "로그인/회원가입 기능",
@@ -33,25 +109,21 @@
         "Zustand를 통한 간단하고 효과적인 상태 관리",
         "Supabase에서의 역할 기반 보안 및 접근 제어"
       ],
-      "github": "https://github.com/seoyeon22/flashmind",
+      "github": [
+        {
+          "label": "Repository",
+          "url": "https://github.com/seoyeon22/flashmind"
+        }
+      ],
       "demo": "https://flashmind-iota.vercel.app/",
-      "Images": [
-        "/images/flashmind1.png"
-      ]
+      "Images": ["/images/flashmind1.png"]
     },
     {
       "logo": "/logos/overtheglass.png",
       "title": "Over The Glass",
       "period": "2023년 3월 - 2023년 11월",
       "team": "3인 팀",
-      "stack": [
-        "Unity",
-        "C#",
-        "Python",
-        "WebSocket",
-        "Flask",
-        "AWS"
-      ],
+      "stack": ["Unity", "C#", "Python", "WebSocket", "Flask", "AWS"],
       "summary": "AR글래스를 이용한 난청인을 위한 실시간 자막 서비스",
       "features": [
         "대화모드 : 발화자 주변에 자막 출력, 대화방을 생성하여 이용",
@@ -72,7 +144,12 @@
         "WebSocket을 활용한 실시간 통신 아키텍처",
         "Unity의 AR Foundation 및 UI 렌더링"
       ],
-      "github": "https://github.com/Over-The-Glass",
+      "github": [
+        {
+          "label": "Repository",
+          "url": "https://github.com/Over-The-Glass"
+        }
+      ],
       "Images": [
         "/images/overtheglass1.png",
         "/images/overtheglass2.png",
@@ -85,9 +162,7 @@
       "title": "Duktown",
       "period": "2023년 6월 - 2023년 8월",
       "team": "4인 팀 (프론트엔드 2명, 백엔드 2명)",
-      "stack": [
-        "React"
-      ],
+      "stack": ["React"],
       "summary": "기숙사 생활을 위한 커뮤니티 기반 정보 공유 앱",
       "features": [
         "기숙사 관련 정보 제공, 기숙사 관련 신청(외박신청, 수리요청)",
@@ -108,20 +183,20 @@
         "RESTful API와 토큰 기반 인증 흐름에서 accessToken을 `localStorage`로 관리하고, 인증되지 않은 접근에 대한 리디렉션 처리를 학습함",
         "카테고리별 조건부 렌더링, 스크롤 이벤트 처리, useRef의 활용 등 실제 커뮤니티 기능 구현을 통해 사용자 중심의 UI 로직을 설계하는 경험을 함"
       ],
-      "github": "https://github.com/yoonhaorg/Duktown_Frontend",
-      "Images": [
-        "/images/duktown1.png",
-        "/images/duktown2.png"
-      ]
+      "github": [
+        {
+          "label": "Repository",
+          "url": "https://github.com/yoonhaorg/Duktown_Frontend"
+        }
+      ],
+      "Images": ["/images/duktown1.png", "/images/duktown2.png"]
     },
     {
       "logo": "/logos/timezip.png",
       "title": "Time.zip",
       "period": "2022년 8월",
       "team": "4인 팀 (프론트엔드 3명, 백엔드 1명)",
-      "stack": [
-        "React"
-      ],
+      "stack": ["React"],
       "summary": "학우들의 통학, 공강 시간을 위한 자기계발 웹 앱",
       "features": [
         "뉴스레터, 동영상 강의 등 자기계발에 도움이 되는 정보를 모아서 제공",
@@ -131,28 +206,25 @@
         "로그인/회원가입 페이지 및 뉴스레터 페이지 구현",
         "UI 및 UX 디자인"
       ],
-      "problemSolving": [
-        "git 병합 충돌 해결"
-      ],
+      "problemSolving": ["git 병합 충돌 해결"],
       "learning": [
         "짧은 해커톤 기간 내 기획-디자인-개발 과정을 경험하며 협업 능력 향상",
         "Rest API 연동을 위한 axios 기반 비동기 처리"
       ],
-      "github": "https://github.com/Draw-Four-Synergy",
-      "Images": [
-        "/images/timezip1.png"
-      ]
+      "github": [
+        {
+          "label": "Repository",
+          "url": "https://github.com/Draw-Four-Synergy"
+        }
+      ],
+      "Images": ["/images/timezip1.png"]
     },
     {
       "logo": "/logos/focusup.png",
       "title": "Focus Up",
       "period": "2024년 7월 - 2024년 8월",
       "team": "10인 팀 (프론트엔드 명, 백엔드 2명)",
-      "stack": [
-        "Spring Boot",
-        "MySQL",
-        "AWS"
-      ],
+      "stack": ["Spring Boot", "MySQL", "AWS"],
       "summary": "집중력과 성취감을 함께 키우는 게임형 루틴 관리 앱",
       "features": [
         "사용자의 루틴 생성 및 관리 기능",
@@ -162,17 +234,19 @@
       "contribution": [
         "Spring Boot를 활용해 홈 화면, 캐릭터 화면, 마이룸, 상점 관련 Rest API 개발"
       ],
-      "problemSolving": [
-      ],
+      "problemSolving": [],
       "learning": [
         "Controller–Service–Repository 구조로 레이어를 분리해 MVC 기반의 유지보수에 용이한 아키텍처를 구현",
         "Spring Boot와 MySQL + JPA 을 이용한 백엔드 개발"
       ],
-      "github": "https://github.com/UMC-Focus-Up",
-      "Images": [
-        "/images/focusup1.png"
+      "github": [
+        {
+          "label": "Repository",
+          "url": "https://github.com/UMC-Focus-Up"
+        }
       ],
-      "video" : "/video/focusup.mp4"
+      "Images": ["/images/focusup1.png"],
+      "video": "/video/focusup.mp4"
     }
   ]
 }

@@ -75,6 +75,17 @@
           ]
         },
         {
+          "skill": "Vue",
+          "logo": "/icons/vue.png",
+          "contents": [
+            "Designed and implemented components using Vue 3 and the Composition API",
+            "Defined component interfaces with Props/Emits and built reusable component structures",
+            "Managed reactive state flow with computed, watch, and watchEffect",
+            "Implemented SPA routing with Vue Router and applied navigation guards",
+            "Managed global state with Pinia and modularized stores"
+          ]
+        },
+        {
           "skill": "JavaScript & TypeScript",
           "logo": "/icons/js_ts.png",
           "contents": [

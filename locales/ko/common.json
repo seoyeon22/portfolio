@@ -34,6 +34,10 @@
     "5": {
       "date": "2024.08",
       "content": "덕성여자대학교 졸업\nIT미디어공학과 심화전공(우수졸업)"
+    },
+    "6": {
+      "date": "2025.06 ~ 2025.11",
+      "content": "한화시스템 BEYOND SW 캠프 수료"
     }
   },
   "awards&certificates": {
@@ -72,6 +76,17 @@
             "Styled-components, TailwindCSS 등 스타일링 도구 사용",
             "Zustand를 활용한 상태 관리",
             "Next.js 프로젝트 경험"
+          ]
+        },
+        {
+          "skill": "Vue",
+          "logo": "/icons/vue.png",
+          "contents": [
+            "Vue 3 + Composition API 기반 컴포넌트 설계/구현",
+            "Props/Emit을 활용한 컴포넌트 인터페이스 설계 및 재사용 컴포넌트 구성",
+            "computed/watch/watchEffect로 반응형 상태 흐름 제어",
+            "Vue Router로 SPA 라우팅 및 네비게이션 가드 적용",
+            "Pinia를 활용한 전역 상태 관리 및 스토어 모듈화"
           ]
         },
         {
