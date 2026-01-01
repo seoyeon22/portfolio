@@ -76,6 +76,7 @@
           "url": "https://github.com/seoyeon22/LinkVerse-UniBooker-BE"
         }
       ],
+      "demo": "https://uni-booker.kro.kr:8443/admin/service",
       "Images": [
         "/images/unibooker1.png",
         "/images/unibooker2.png",
